@@ -1,0 +1,26 @@
+CREATE TABLE IF NOT EXISTS sampleimport (
+    `id` INT,
+    `userNo` INT,
+    `fname` VARCHAR(15) CHARACTER SET utf8,
+    `lname` VARCHAR(7) CHARACTER SET utf8,
+    `mname` VARCHAR(9) CHARACTER SET utf8,
+    `role` VARCHAR(7) CHARACTER SET utf8,
+    `address` VARCHAR(39) CHARACTER SET utf8,
+    `contact` INT,
+    `email` VARCHAR(51) CHARACTER SET utf8,
+    `gender` VARCHAR(6) CHARACTER SET utf8,
+    `course` VARCHAR(7) CHARACTER SET utf8,
+    `yr_lvl` INT,
+    `bdate` DATETIME,
+    `username` INT,
+    `password` INT,
+    `status` INT,
+    `pic` INT,
+    `created_at` INT,
+    `school` INT,
+    `suffix` INT
+);
+INSERT INTO sampleimport VALUES (NULL,1901114,'MARIA CAMILLE','AMULONG','JOSE','Student','Sta. Monica, Sungay West, Tagaytay City',NULL,'mariacamille.amulong@citycollegeoftagaytay.edu.ph','female','BSHM',4,'2001-03-12 00:00:00',NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+	(NULL,2022010082,'JANE ROSE','AMULONG','SORILLANO','Student','Kaybagal South, Tagaytay City, Cavite',NULL,'janerose.amulong@citycollegeoftagaytay.edu.ph','female','BSBA-MM',1,'2003-08-11 00:00:00',NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+	(NULL,2022010081,'KATRINA','AMULONG','JAVIER','Student','Kaybagal Central, Tagaytay City, Cavite',NULL,'katrina.amulong@citycollegeoftagaytay.edu.ph','female','BSOA',1,'2003-10-24 00:00:00',NULL,NULL,NULL,NULL,NULL,NULL,NULL),
+	(NULL,2022010080,'YASMIEN MIKAELA','AMULONG','MARASIGAN','Student','Sungay West, Tagaytay City, Cavite',NULL,'yasmienmikaela.amulong@citycollegeoftagaytay.edu.ph','female','BSE-SS',1,'2004-01-20 00:00:00',NULL,NULL,NULL,NULL,NULL,NULL,NULL);

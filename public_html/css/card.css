@@ -1,0 +1,166 @@
+.center {
+  text-align: center;
+  border: 3px solid green;
+}
+
+.cardbox {
+  box-sizing: border-box;
+  
+}
+
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 50%;
+  padding: 20px;
+
+}
+.column1 {
+  float: left;
+  width: 50%;
+  padding: 20px;
+
+}
+@media screen and (max-width: 600px) {
+          .column1 {
+    float: left;
+    width: 100%;
+    padding: 20px;
+}
+        }
+
+
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px; 
+    padding: inherit;
+    
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+  
+
+/* Style the counter cards */
+.ccard {
+  overflow: hidden;
+  border: 0.2px solid rgb(172,172,172);
+  box-shadow: 1px 5px 9px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 2%;
+  padding: 16px;
+  background-color: #f1f1f1;
+  transition: transform .2s;
+  text-align: center;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+.ccard1 {
+  overflow: hidden;
+border: 0.2px solid rgb(172,172,172);
+  box-shadow: 1px 5px 9px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 2%;
+  padding: 20px;
+  background-color: #f1f1f1;
+  transition: transform .2s;
+  text-align: center;
+  height: 600px;
+  display: flex;
+
+  align-items: center;
+  
+  
+}
+@media screen and (max-width: 600px) {
+   .ccard1 {
+  overflow: hidden;
+  box-shadow: 1px 5px 9px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 2%;
+  padding: 20px;
+  background-color: #f1f1f1;
+  transition: transform .2s;
+  text-align: center;
+  height: auto;
+  display: flex;
+
+  align-items: center;
+  
+  
+}
+        }
+
+#hoverChange:hover{
+  transform: scale(1.1)
+}
+
+.txt2{
+  padding: 0;
+  margin: 0;
+}
+
+
+@media screen and (max-width: 700px){
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .ccard{
+      height: 900px;
+  }
+  }
+
+.c_container{
+  height: 100%;
+  max-width: 100vw;
+  margin: 0;
+  padding: 40px 20px 0 20px;
+}
+
+.searchcontainer{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  position: sticky;
+}
+
+.searchcontainer button{
+  padding: 20px 20px;
+  border-radius: 50px;
+  float: right;
+  height: 100%;
+  background-color: rgb(100, 71, 71);
+  border: 0;
+}
+
+.searchbox{
+  padding: 10px 10px;
+  border-radius: 30px;
+  border-spacing: 0;
+  width: 50%;
+  background-color: #f1f1f1;
+  vertical-align: middle;
+}
+
+.searchinput{
+  padding: 5px 20px;
+  text-align: left;
+  max-width: 100%;
+  width: 90%;
+  float: left;
+  font-size: 20px;
+}
+
+
+
