@@ -1,0 +1,9 @@
+# Projects
+Online Library Information System
+
+
+UI: HTML, CSS, Bootstrap Framework
+Functions: JavaScript, TypeScript, jQuery, AJAX, PHP
+DBS: MySQL
+Other Libraries: IntaScanJS(QR Code Scanner) and Google API(QR Code Generator)
+This system contains real time cataloguing of books and uses QR code for the borrowing and returning of books in the library.
