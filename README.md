@@ -1,6 +1,6 @@
 # Projects
 
-public_html folder{
+
 Online Library Information System
 
 
@@ -24,9 +24,4 @@ UserID/Username: 1901665 (Borrow, return, edit catalog)
 
 Student Account
 UserID/Username: 1901504 (transaction history, catalog)
-}
-
-midterm folder{
-Flutter application (Slot Machine)
-}
 
