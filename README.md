@@ -1,8 +1,5 @@
-# Projects
 
-
-Online Library Information System
-
+# Online Library Information System
 
 UI: HTML, CSS, Bootstrap Framework
 
